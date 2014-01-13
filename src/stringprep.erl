@@ -35,7 +35,7 @@
 %%% API functions
 %%%===================================================================
 start() ->
-    application:start(p1_stringprep).
+    application:start(stringprep).
 
 load_nif() ->
     load_nif(get_so_path()).
